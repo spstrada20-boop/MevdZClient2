@@ -20,5 +20,6 @@ public class MevdZClient {
         ClientRegistry.registerKeyBinding(keyMenu);
         ClientRegistry.registerKeyBinding(keySprint);
         MinecraftForge.EVENT_BUS.register(new Hud());
+        FeatureModule.init();
     }
 }
